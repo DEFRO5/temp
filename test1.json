@@ -904,7 +904,7 @@
       "type": "object",
       "required": [
         "name",
-        "photoUrls"
+        "photoUrls<script>alert(1)</script>"
       ],
       "properties": {
         "id": {
@@ -918,7 +918,7 @@
           "type": "string",
           "example": "doggie"
         },
-        "photoUrls": {
+        "photoUrls<script>alert(1)</script>": {
           "type": "array",
           "xml": {
             "wrapped": true
