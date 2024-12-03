@@ -47,7 +47,7 @@
   <rect x="0" y="0" width="800" height="600" fill="blue" mask="url(#mask1)" />
 
   <!-- Images -->
-  <image x="400" y="400" width="100" height="100" xlink:href="https://via.placeholder.com/javascript:alert(origin)" id="image" />
+  <image x="400" y="400" width="100" height="100" xlink:href="https://via.placeholder.com/wp-content/themes/23andMe-Medical/media/images/23andMe.ico" id="image" />
 
   <!-- Foreign Object -->
   <foreignObject x="500" y="400" width="200" height="100">
