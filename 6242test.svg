@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1080 1920" style="border: 1px solid black;">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100" style="border: 1px solid black;">
     <!-- Header Section -->
-    <rect x="0" y="0" width="100%" height="100" fill="#007BFF" />
-    <text x="50%" y="50" fill="white" font-size="32" font-family="Arial" text-anchor="middle">My Test Page</text>
+    <rect x="0" y="0" width="100%" height="10%" fill="#007BFF" />
+    <text x="50%" y="5%" fill="white" font-size="5" font-family="Arial" text-anchor="middle">My Test Page</text>
 
     <!-- Navigation Section -->
-    <rect x="0" y="100" width="100%" height="50" fill="#0056b3" />
-    <text x="10%" y="130" fill="white" font-size="18" font-family="Arial" text-anchor="middle" onclick="navigate('home')">Home</text>
-    <text x="40%" y="130" fill="white" font-size="18" font-family="Arial" text-anchor="middle" onclick="navigate('about')">About</text>
-    <text x="70%" y="130" fill="white" font-size="18" font-family="Arial" text-anchor="middle" onclick="navigate('contact')">Contact</text>
+    <rect x="0" y="10%" width="100%" height="5%" fill="#0056b3" />
+    <text x="10%" y="15%" fill="white" font-size="4" font-family="Arial" text-anchor="middle" onclick="navigate('home')">Home</text>
+    <text x="40%" y="15%" fill="white" font-size="4" font-family="Arial" text-anchor="middle" onclick="navigate('about')">About</text>
+    <text x="70%" y="15%" fill="white" font-size="4" font-family="Arial" text-anchor="middle" onclick="navigate('contact')">Contact</text>
 
     <!-- Content Section -->
-    <rect x="0" y="150" width="100%" height="400" fill="#f8f9fa" />
-    <text id="content" x="50%" y="400" fill="#212529" font-size="24" font-family="Arial" text-anchor="middle">Welcome to My SVG Webpage!</text>
+    <rect x="0" y="15%" width="100%" height="40%" fill="#f8f9fa" />
+    <text id="content" x="50%" y="35%" fill="#212529" font-size="8" font-family="Arial" text-anchor="middle">Welcome to My SVG Webpage!</text>
 
     <!-- Footer Section -->
-    <rect x="0" y="550" width="100%" height="50" fill="#343a40" />
-    <text x="50%" y="580" fill="white" font-size="16" font-family="Arial" text-anchor="middle">© 2024 My SVG Webpage</text>
+    <rect x="0" y="55%" width="100%" height="5%" fill="#343a40" />
+    <text x="50%" y="57%" fill="white" font-size="3" font-family="Arial" text-anchor="middle">© 2024 My SVG Webpage</text>
 </svg>
