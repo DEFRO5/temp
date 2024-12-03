@@ -1,13 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" style="border: 1px solid black;">
         <!-- Header Section -->
         <rect x="0" y="0" width="800" height="100" fill="#007BFF" />
-        <text x="400" y="50" fill="white" font-size="32" font-family="Arial" text-anchor="middle">My SVG Webpage</text>
+        <text x="400" y="50" fill="white" font-size="32" font-family="Arial" text-anchor="middle">My Test Page</text>
 
         <!-- Navigation Section -->
         <rect x="0" y="100" width="800" height="50" fill="#0056b3" />
         <text x="100" y="130" fill="white" font-size="18" font-family="Arial" text-anchor="middle" onclick="navigate('home')">Home</text>
         <text x="300" y="130" fill="white" font-size="18" font-family="Arial" text-anchor="middle" onclick="navigate('about')">About</text>
         <text x="500" y="130" fill="white" font-size="18" font-family="Arial" text-anchor="middle" onclick="navigate('contact')">Contact</text>
+        <rect width=100% height=100%><animate attributeName=width from=0 to=100% dur=2s>!
 
         <!-- Content Section -->
         <rect x="0" y="150" width="800" height="400" fill="#f8f9fa" />
